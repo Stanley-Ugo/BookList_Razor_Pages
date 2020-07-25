@@ -68,3 +68,4 @@ C:\Projects\BookList_Razor_Pages\obj\Debug\netcoreapp3.1\BookList_Razor_Pages.Vi
 C:\Projects\BookList_Razor_Pages\obj\Debug\netcoreapp3.1\BookList_Razor_Pages.dll
 C:\Projects\BookList_Razor_Pages\obj\Debug\netcoreapp3.1\BookList_Razor_Pages.pdb
 C:\Projects\BookList_Razor_Pages\obj\Debug\netcoreapp3.1\BookList_Razor_Pages.genruntimeconfig.cache
+C:\Projects\BookList_Razor_Pages\obj\Debug\netcoreapp3.1\Razor\Pages\BookList\Index.cshtml.g.cs
