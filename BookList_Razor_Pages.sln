@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookList_Razor_Pages", "BookList_Razor_Pages.csproj", "{5BB51CFF-A49D-47BB-B372-1E47F49DB633}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookList_Razor_Pages", "BookList_Razor_Pages.csproj", "{5BB51CFF-A49D-47BB-B372-1E47F49DB633}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
