@@ -7,6 +7,17 @@
 <h2>Book List</h2>
 <br />
 
+@if (Model.Message != null)
+{
+    <div class="alert alert-info alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        @Model.Message
+    </div>
+}
+
+
 <a asp-page="Create" class="btn btn-primary">Create A Book</a>
 
 @if (Model.Books.Count() > 0)

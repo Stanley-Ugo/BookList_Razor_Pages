@@ -12,6 +12,9 @@ namespace BookList_Razor_Pages.Pages.BookList
     {
         private readonly ApplicationDbContext _db;
 
+        [TempData]
+        public string Message { get; set; }
+
         public CreateModel(ApplicationDbContext db)
         {
             _db = db;
@@ -23,7 +26,7 @@ namespace BookList_Razor_Pages.Pages.BookList
         {
         }
 
-        public async Task<IActionResult> onPost()
+        public async Task<IActionResult> OnPost()
         {
             if (!ModelState.IsValid)
             {
@@ -31,6 +34,8 @@ namespace BookList_Razor_Pages.Pages.BookList
             }
             _db.Books.Add(Book);
             await _db.SaveChangesAsync();
+
+            Message = "New Book added successfully!!";
 
             return RedirectToPage("Index");
         }
